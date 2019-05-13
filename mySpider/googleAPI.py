@@ -1,6 +1,6 @@
 import googlemaps
 
-KEY = 'AIzaSyDGIpJw34NzFuZibBQpPYSr9EKAO12GX7A'
+KEY = ''
 
 
 def get_google_results(address, api_key=KEY):
