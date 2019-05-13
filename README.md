@@ -22,7 +22,6 @@ This example is given in the github homepage [Python Client for Google Maps Serv
 To use Geocoding API, Visit https://developers.google.com/console to get an API key.
 ```python
 import googlemaps
-from datetime import datetime
 
 gmaps = googlemaps.Client(key='Add Your Key here')
 
