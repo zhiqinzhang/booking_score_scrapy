@@ -1,16 +1,16 @@
 # booking score scrapy
-## Introduction
+## 1. Introduction
 Retrieve hotels info, including name, address, total rating and location rating from booking.com for education purpose.
 Google Map API is used in this project to obtain the geocoding info such as latitude and longitude of each hotel.
-## Environment
-### scrapy 1.6.0
+## 2. Environment
+### 2.1. scrapy 1.6.0
 #### Installation
 ```
 source activate your_virtualenv
 conda install Scrapy
 ```  
 A Simple Tutorial from Documentation：Check [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)
-### googlemaps 2.5.1
+### 2.2. googlemaps 2.5.1
 This is the python client for Google Maps Services.  
 #### Installation
 ```
@@ -29,7 +29,7 @@ gmaps = googlemaps.Client(key='Add Your Key here')
 # Geocoding an address
 geocode_result = gmaps.geocode('8 Whiteman Street, Southbank, 3006 Melbourne, Australia')
 ```
-### geopy 1.19.0 (Alternative)
+### 2.3. geopy 1.19.0 (Alternative)
 geopy is a Python 2 and 3 client for several popular geocoding web services.
 #### Installation
 ```
@@ -44,7 +44,7 @@ geolocator = Nominatim(user_agent="specify_your_app_name_here")
 location = geolocator.geocode("8 Whiteman Street, Southbank, 3006 Melbourne, Australia")
 print((location.latitude, location.longitude))
 ```
-## Usage
+## 3. Usage
 1. Specify the data you wish to scrape in mySpider/items.py.
 ```python
 import scrapy
@@ -61,9 +61,9 @@ class BookingHotelItem(scrapy.Item):
 ```
 2. Set the first request url in mySpider/spiders/BookingSpider.py.
 ```python
-    start_urls = ['https://www.booking.com/searchresults.en-gb.html.....']
+start_urls = ['https://www.booking.com/searchresults.en-gb.html.....']
 ```
-5. Set your API key in mySpider/googleAPI.py.
+3. Set your API key in mySpider/googleAPI.py.
 ```python
 KEY = 'your api key'
 ```
@@ -71,7 +71,7 @@ KEY = 'your api key'
 ```
 scrapy crawl booking -o booking_rating_8+_Melbourne.csv
 ```
-## Comments
+## 4. Comments
 1. Response from Geocoding API is like:
 ```json
 [
@@ -175,7 +175,7 @@ scrapy crawl booking -o booking_rating_8+_Melbourne.csv
 }
 </script>
 ```
-3. Specific scores can be found under <div id="review_list_score" class=""> tag.
-![][screenshot_score]
+3. Specific scores can be found under `<div id="review_list_score" class="">` tag.
+<img src="https://github.com/zhiqinzhang/booking_score_scrapy/blob/master/mySpider/imagecache/screenshot_score.png" width = "40%" height = "40%" alt="图片名称" align=center />
 4. Ideal output file will look like this:
-![][screenshot_output]
+<img src="https://github.com/zhiqinzhang/booking_score_scrapy/blob/master/mySpider/imagecache/screenshot_output.png" width = "915" height = "406" alt="图片名称" align=center />
