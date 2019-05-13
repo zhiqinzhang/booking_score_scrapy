@@ -1,6 +1,4 @@
-import requests
 import googlemaps
-import json
 
 KEY = 'AIzaSyDGIpJw34NzFuZibBQpPYSr9EKAO12GX7A'
 
@@ -8,6 +6,7 @@ KEY = 'AIzaSyDGIpJw34NzFuZibBQpPYSr9EKAO12GX7A'
 def get_google_results(address, api_key=KEY):
     gmaps = googlemaps.Client(key=api_key)
     results = gmaps.geocode(address)[0]
+    print(results)
 
     # if there's no results or an error, return empty results.
     if len(results) == 0:
@@ -33,8 +32,8 @@ def get_google_results(address, api_key=KEY):
 
 
 if __name__ == '__main__':
-    test_result = get_google_results(address="470 St Kilda Road, 3004 Melbourne, Australia",
+    test_result = get_google_results(address="8 Whiteman Street, Southbank, 3006 Melbourne, Australia",
                                      api_key=KEY)
-    print(test_result['latitude'])
-    print(test_result['longitude'])
+    # print(test_result['latitude'])
+    # print(test_result['longitude'])
     # print(test_result['location_type'])
