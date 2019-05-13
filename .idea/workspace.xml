@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf26880f-d39c-4ed6-bd27-833c7d85ca1d" name="Default" comment="" />
+    <list default="true" id="cf26880f-d39c-4ed6-bd27-833c7d85ca1d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotels.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,10 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookingSpider.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookingSpider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mySpider/spiders/BookingSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="180">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="55" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -22,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="googleAPI.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="googleAPI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mySpider/googleAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="392">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -52,6 +58,9 @@
       <find>ibis Melbourne Central</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -69,6 +78,9 @@
     <option name="width" value="849" />
     <option name="height" value="946" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -85,12 +97,6 @@
               <item name="mySpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="mySpider" type="462c0819:PsiDirectoryNode" />
               <item name="mySpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,12 +211,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="831" y="23" width="849" height="946" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37560385" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2705314" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5005025" side_tool="true" weight="0.45229682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40282685" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49949747" visible="true" weight="0.27090696" />
@@ -271,21 +278,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/spiders/BookingSpider.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mySpider/googleAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="392">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/googleAPI.py">
+    <entry file="file://$PROJECT_DIR$/mySpider/spiders/BookingSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="55" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
